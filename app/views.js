@@ -155,7 +155,7 @@
       '<th data-sort="co2">CO₂ / capita</th><th data-sort="urban">Urban</th>' +
       '</tr></thead><tbody id="country-rows"></tbody></table></div>' +
       '<p class="small muted" id="country-count"></p>' +
-      '<p class="small muted">Figures: World Bank, latest year reported for each country (mostly 2024; CO₂ mostly 2021–2022). See <a href="#/sources">Sources &amp; method</a>.</p>';
+      '<p class="small muted">Figures: World Bank, latest year reported for each country (2024, except unemployment for Ukraine, 2021). See <a href="#/sources">Sources &amp; method</a>.</p>';
   }
 
   function renderCountryRows() {
@@ -382,8 +382,8 @@
       '<div class="table-wrap"><table class="data" style="min-width:0"><thead><tr><th>Indicator</th><th>What it is (World Bank code)</th></tr></thead><tbody>' + rows + '</tbody></table></div></div>' +
       '<h2 class="section-title">Years and coverage</h2>' +
       '<div class="card"><p>Each figure is shown with the year the World Bank reports it for. ' +
-      'Most indicators are current to 2024; CO₂ per capita runs to 2021–2022, the latest the World Bank publishes for that series, ' +
-      'and unemployment and internet use are mostly 2023–2024. Population and GDP charts run from 2014 to 2024. ' +
+      'Every indicator is current to 2024, with one exception: unemployment for Ukraine, ' +
+      'whose latest World Bank value is 2021. Population and GDP charts run from 2014 to 2024. ' +
       'Where the World Bank reports no value for a country, the site says so rather than guessing.</p>' +
       '<p>48 countries are covered: the world’s largest economies and populations plus a spread across every region, ' +
       'so the rankings and comparisons stay meaningful. The site covers 6 regions: Africa, Asia, Europe, North America, South America and Oceania.</p></div>' +
