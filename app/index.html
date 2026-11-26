@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World in Numbers — National Statistics Explorer</title>
+<meta name="description" content="Population, GDP, life expectancy, emissions and more for 48 countries — real World Bank figures, each labelled with its year. Works offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <a class="brand-mark" href="#/">World <em>in</em> Numbers</a>
+      <span class="brand-tag">National statistics, counted honestly</span>
+    </div>
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="#/">Home</a>
+      <a href="#/countries">Countries</a>
+      <a href="#/compare">Compare</a>
+      <a href="#/rankings">Rankings</a>
+      <a href="#/sources">Sources &amp; method</a>
+    </nav>
+  </div>
+  <div class="masthead-strip"><div><b>48 countries</b> · 10 indicators · every figure from the World Bank, labelled with its year · works offline</div></div>
+</header>
+<main class="page" id="app">
+  <noscript><h1>World in Numbers</h1><p>This statistics explorer needs JavaScript to render its charts and tables. The data is the World Bank&rsquo;s World Development Indicators, retrieved 26 November 2026.</p></noscript>
+</main>
+<footer class="site-footer">
+  <div class="inner">
+    <h3>World in Numbers</h3>
+    <p>An original, independent national statistics explorer. Data: World Bank, World Development Indicators, retrieved 26 November 2026 — see <a href="#/sources">Sources &amp; method</a>. Site code is released under the MIT licence.</p>
+    <p>Built for the make.fun &ldquo;best national statistics site&rdquo; bounty. Not affiliated with the World Bank.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
